@@ -1,0 +1,95 @@
+html {
+    background: #314455;
+}
+body {
+    font-size: 80%;
+    font-family: "Verdana", Hervetica, sans-serif;
+    letter-spacing: 0.15em;
+    /*background-color: #efefef;*/
+    background-color: rbg(102, 153, 255);
+}
+#borderDemo {
+border-width: 5px;
+border-style: dotted;
+border-color: #1C6EA4;
+border-radius: 34px 25px 29px 0px;
+}
+#page {
+    background: #644E5B;
+    max-width: 920px;
+    max-height: 720px auto;
+    margin: 25px auto 10px auto;
+    padding: 20px;
+    /*border: 10px solid #501F3A*/
+    border: 10px solid;
+    border-color: #9E5A63;
+}
+#logo {
+	display: block ;
+	margin: 0px auto;
+}
+ul {
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin: 0px 3px;
+    /*background-color: rgb(204, 255, 212)*/
+    background-color: #C96567
+}
+p {
+    border: 3px solid #1C6EA4;
+    border-radius: 0px 40px 0px 40px;
+    background-color: #97AABD;
+    color: #ffffff;
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+}
+a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+a:hover, a.on {
+    color: #cc3333;
+    background-color: #361616;
+    background-color: #ffffff;
+}
+#demo {
+    text-align: center;
+	background: #CE5937;
+    background: -moz-radial-gradient(center, #CE5937 0%, #8681A4 50%, #C59237 100%);
+    background: -webkit-radial-gradient(center, #CE5937 0%, #8681A4 50%, #C59237 100%);
+    background: radial-gradient(ellipse at center, #CE5937 0%, #8681A4 50%, #C59237 100%);
+}
+img.mysize {
+	width: 350px;
+	height: 350px;
+}
+img.align-center {
+	display: block;
+	margin: 0px auto;
+}
+.column1of3, .column2of3, .column3of3 {
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+b {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+b:hover, b.on {
+    color: #cc3333;
+    background-color: #361616;
+}
